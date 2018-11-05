@@ -1,0 +1,73 @@
+﻿version 4.00
+cm_version 2.0
+platform OpenCM9.04
+o // param_text:Created : 10 / 16 / 2018
+- 
+o main
+- 
+o begin
+- 
+- 
+- 
+o function faddr_src:inclinaDireita
+o begin
+o if param_src:var:perna_d lop:== param_src:bool_num:1 rop:then
+o begin
+o load param_dest:motor4:8:106 param_src:position_num:546
+o load param_dest:motor4:16:106 param_src:position_num:546
+- 
+- 
+o end
+o else
+o begin
+o load param_dest:motor4:7:106 param_src:position_num:478
+o load param_dest:motor4:15:106 param_src:position_num:478
+o end
+- 
+- 
+- 
+o end
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
